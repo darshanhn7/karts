@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darshan H N | Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #000; /* solid black background */
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 95%;
+            max-width: 1500px;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+        }
+
+        .left {
+            flex: 1;
+            padding: 40px;
+            min-width: 500px;
+        }
+
+        .left h1 {
+            font-size: 3rem;
+            text-transform: uppercase;
+            margin: 0;
+            color: #00ffff;
+            word-break: break-word;
+        }
+
+        .left h2 {
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            color: #ffffffb2;
+            margin: 10px 0 30px 0;
+        }
+
+        .left h3 {
+            font-size: 1.2rem;
+            margin: 20px 0 10px;
+            color: #00ffaa;
+        }
+
+        .left pre {
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #e0e0e0;
+        }
+
+        .right {
+            flex: 1;
+            background: #111;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            min-width: 300px;
+        }
+
+        .right img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #00ffff;
+            box-shadow: 0 0 20px #00ffff80;
+        }
+
+        @media (max-width: 768px) {
+            .left h1 {
+                font-size: 2rem;
+            }
+
+            .right img {
+                width: 200px;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="left">
+            <h1>Hey, I'm Darshan H N</h1>
+            <h2>From Tiptur</h2>
+
+            <h3>B.E in Information Science and Technology, 2025 YOP</h3>
+            <h3>Kalpataru Institute of Technology, Tiptur</h3>
+
+            <h3><u>Skills</u></h3>
+            <pre>
+Time Management
+Adaptability
+Problem Solving
+            </pre>
+
+            <h3><u>Technical Knowledge</u></h3>
+            <pre>
+Basics of Python
+Basics of C
+Web Development (HTML, CSS, JS)
+Core Java Concepts (OOPS)
+Python Data Analytics
+            </pre>
+
+            <h3><u>Projects</u></h3>
+            <pre>
+Deepfake Detection using Deep Learning
+Plant Disease Detection using Deep Learning
+Online Attendance Taking System
+YouTube Clone
+            </pre>
+        </div>
+
+        <div class="right">
+            <img src="Profile.jpg" alt="Darshan H N">
+        </div>
+    </div>
+</body>
+</html>
